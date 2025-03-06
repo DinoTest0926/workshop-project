@@ -10,4 +10,3 @@
 ## 2. manual scan
  
 mvn clean install -DskipTests=true sonar:sonar -D"sonar.host.url=https://sonarcloud.io" -D"sonar.token="
-
