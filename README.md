@@ -9,4 +9,5 @@
  
 ## 2. manual scan
  
-mvn clean install -DskipTests=true sonar:sonar -Dsonar.host.url=https://sonarcloud.io  -Dsonar.token=ab83837cf00d600234cca44e3d728504c1aade95 
+mvn clean install -DskipTests=true sonar:sonar -D"sonar.host.url=https://sonarcloud.io" -D"sonar.token="
+
